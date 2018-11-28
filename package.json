@@ -1,0 +1,30 @@
+{
+  "name": "process-key-mutex",
+  "version": "1.0.0",
+  "description": "process key locker",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "assert": "^1.4.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "process",
+    "key",
+    "locker",
+    "mutex"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qw623577789/process-key-mutex.git"
+  },
+  "author": "skip",
+  "license": "ISC"
+}
