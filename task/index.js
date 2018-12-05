@@ -15,7 +15,7 @@ module.exports = class {
             this._reject(error);
         }
         finally {
-            if (this._nextTask != undefined) {
+            if (this._nextTask != null) {
                 this._nextTask.do();
             }
             else {
